@@ -76,9 +76,6 @@
   .profile_pic img{
     margin-right: 0;
   }
-  .arrow {
-    display: none;
-  }
   #contact {
     display: flex;
     justify-content: center;
