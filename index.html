@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio | Katiana de Almeida</title>
+    <link rel="icon" href="assets/images/Photo_face_1.jpeg" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="assets/styles/mediaQueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("vOvWWI1hxER0adbuX");
+      })();
+    </script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <p class="name">
+            <span class="name_style">K</span>atiana
+            <span class="name_style">A</span>lmeida
+          </p>
+          <ul class="links1">
+            <li><a href="#header">Profile</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <img class="menu_button" onclick="showSidebar('open')" width="50" height="50" src="https://img.icons8.com/ios/50/menu--v1.png" alt="menu--v1"/>
+          <div class="links2">
+            <img class="close_button" onclick="showSidebar('close')" width="40" height="40" src="https://img.icons8.com/external-inkubators-basic-outline-inkubators/64/external-close-button-it-and-computer-inkubators-basic-outline-inkubators.png" alt="external-close-button-it-and-computer-inkubators-basic-outline-inkubators"/>
+            <ul>
+              <li><a href="#header">Profile</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="profile">
+      <div class="profile_pic">
+        <img src="assets/images/Photo_face_1.jpeg" alt="" class="profile_pic" />
+      </div>
+      <div class="profile_summary">
+        <p class="gray_color intro">Hello&#44; I&#39;m</p>
+        <h1>Katiana Almeida</h1>
+        <p class="gray_color position">Web Developer&#47;Software Engineer</p>
+        <div class="button_container">
+          <button class="button download_button" onclick="window.open('assets/Katiana_de_Almeida_Resume.pdf')">View CV</button>
+          <a href="#contact"><button class="button contact_button">Contact Info</button></a>
+        </div>
+        <br />
+        <div class="social_media_container">
+          <a
+            href="https://www.linkedin.com/in/katiana-almeida-1731ba23a/"
+            target="_blank"
+          >
+            <img class="social_media" src="assets/images/linkedin.png" alt="" />
+          </a>
+          <a href="https://github.com/KatianaAlmeida" target="_blank">
+            <img class="social_media" src="assets/images/github.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="section-container">
+        <div class="about-details-container">
+          <p class="section__text__p1">Get To Know More</p>
+          <h1 class="title">About Me</h1>
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="assets/images/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1 year <br />Software Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="assets/images/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. in Information Technology (Software Engineering)  <br />H.C in Information Systems (Software Development) </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Motivated software engineer student with a background in programming languages, algorithms, and data 
+              structures. Proficient in Java and web development (HTML, CSS, JavaScript, PHP). Demonstrated success 
+              in collaborative agile development teams and independent project implementation, including a Rock Paper 
+              Scissors game and a comprehensive eCommerce website. Notable projects include Lecturer Management 
+              Database and Banks in Financial Distress, showcasing my ability to manage data and model complex 
+              systems. Committed to continuous learning and innovation, I aim to leverage my technical expertise and 
+              passion for technology to contribute to impactful projects within a dynamic software development team. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <a href="#skills">
+        <img src="assets/images/arrow.png" alt="Arrow icon" class="icon arrow">
+      </a>
+    </section>
+
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+                <div>
+                  <h3>HTML5</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/figma--v1.png" alt="figma--v1"/>
+                <div>
+                  <h3>Figma</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/bootstrap--v2.png" alt="bootstrap--v2"/>
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img width="48" height="48" src="https://img.icons8.com/officel/40/react.png" alt="react"/>
+                <div>
+                  <h3>React.js</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/>
+                <div>
+                  <h3>Python</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/>
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/mysql-logo.png" alt="mysql-logo"/>
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/kotlin.png" alt="kotlin"/>
+                <div>
+                  <h3>Kotlin</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img width="48" height="48" src="https://img.icons8.com/officel/40/php-logo.png" alt="php-logo"/>
+                <div>
+                  <h3>PHP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img width="48" height="48" src="https://img.icons8.com/color/48/oracle-logo.png" alt="oracle-logo"/>
+                <div>
+                  <h3>Oracle</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#projects">
+        <img src="assets/images/arrow.png" alt="Arrow icon" class="icon arrow">
+      </a>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/images/top.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Banks-In-Distress</h2>
+            <div class="btn-container">
+              <a href="https://github.com/KatianaAlmeida/BanksInFinancialDistress" target="_blank">
+                <button class="btn btn-color-2 project-btn">Github</button>
+              </a>
+              <a href="https://github.com/KatianaAlmeida/BanksInFinancialDistress" target="_blank">
+                <button class="btn btn-color-2 project-btn">Live Demo</button>
+              </a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/images/home.jpeg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Ecommerce-Website</h2>
+            <div class="btn-container">
+              <a href="https://github.com/KatianaAlmeida/Ecommerce-project-SecondChance" target="_blank">
+                <button class="btn btn-color-2 project-btn">Github</button>
+              </a>
+              <a href="https://secondchanceemperium.000webhostapp.com/home.php" target="_blank">
+                <button class="btn btn-color-2 project-btn">Live Demo</button>
+              </a>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="assets/images/calculator.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Calculator-App</h2>
+            <div class="btn-container">
+              <a href="https://github.com/KatianaAlmeida/Calculator-App" target="_blank">
+                <button class="btn btn-color-2 project-btn">Github</button>
+              </a>
+              <a href="https://github.com/KatianaAlmeida/Calculator-App" target="_blank">
+                <button class="btn btn-color-2 project-btn">Live Demo</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#contact">
+        <img src="assets/images/arrow.png" alt="Arrow icon" class="icon arrow">
+      </a>
+    </section>
+
+    <section id="contact">
+        <div class="contact-info">
+            <div class="contact-details">
+              <p class="section__text__p1">Get in Touch</p>
+              <h1 class="">Contact Me</h1>
+                <p><i class="fas fa-envelope"></i><a href="mailto:katiana.m.b.de.almeida@gmail.com">katiana.m.b.de.almeida@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i>0632230379</p>
+                <div class="social_media_container">
+                  <a
+                    href="https://www.linkedin.com/in/katiana-almeida-1731ba23a/"
+                    target="_blank"
+                  >
+                    <img width="25" height="25" src="assets/images/linkedin.png" alt="" />
+                  </a>&#160;&#160;
+                  <a href="https://github.com/KatianaAlmeida" target="_blank">
+                    <img width="25" height="25" src="assets/images/github.png" alt="" />
+                  </a>
+                </div>
+                <a href="assets/Katiana_de_Almeida_Resume.pdf" download="Katiana_de_Almeida_Resume.pdf"><button class="download-cv">Download CV</button></a>
+            </div>
+            <div class="contact-form">
+                <form id="sendEmailForm">
+                    <input type="text" placeholder="Your Name" id="fullName" required>
+                    <input type="email" placeholder="Your Email" id="email" required>
+                    <input type="text" placeholder="Subject" id="subject" required>
+                    <textarea rows="4" placeholder="Your Message" id="message" required></textarea>
+                    <button id="sendMail">Send</button>
+                    <p id = 'status_message'></p>
+                </form>
+            </div>
+        </div>
+  
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <script src="assets/script.js"></script>
+    </section>
+
+    <footer class="container">
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#header">Profile</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Katiana Almeida. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
