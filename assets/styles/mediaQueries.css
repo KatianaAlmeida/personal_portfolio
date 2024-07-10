@@ -40,7 +40,6 @@
   #about {
     margin-top: 0;
   }
-  #profile,
   .section-container {
     display: block;
   }
@@ -57,7 +56,10 @@
     height: 275px;
     margin: 0 auto 2rem;
   }
- 
+
+}
+
+@media screen and (max-width: 1120px){
   #profile{
     flex-direction: column;
     margin-top: 0;
@@ -74,9 +76,6 @@
   .profile_pic img{
     margin-right: 0;
   }
-}
-
-@media screen and (max-width: 1120px){
   .arrow {
     display: none;
   }
