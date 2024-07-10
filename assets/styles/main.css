@@ -352,7 +352,7 @@ article .icon {
 
 .contact-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   margin-top: 20px;
 }
@@ -360,6 +360,7 @@ article .icon {
 .contact-details {
   max-width: 300px;
   text-align: left;
+  margin-right: 15rem;
 }
 
 .contact-details p {

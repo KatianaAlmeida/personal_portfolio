@@ -45,9 +45,6 @@
     display: block;
   }
     
-  .arrow {
-    display: none;
-  }
   section,
   .section-container {
     height: fit-content;
@@ -80,6 +77,9 @@
 }
 
 @media screen and (max-width: 1120px){
+  .arrow {
+    display: none;
+  }
   #contact {
     display: flex;
     justify-content: center;
