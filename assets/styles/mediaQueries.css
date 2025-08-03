@@ -25,7 +25,9 @@
 .details-container {
   padding: 2rem;
 }
-
+.projects-container{
+  width: 98%;
+}
 @media screen and (max-width: 1600px) {
   #desktop-nav {
     display: none;
@@ -138,6 +140,11 @@
     height: 90%;
   }
 
+  .project-title {
+    margin: 0;
+    color: black;
+  }
+
   footer {
     height: 40vh;
   }
@@ -167,8 +174,15 @@
   .contact-form textarea {
     width: 300px;
   }
+  .contact-form {
+    margin-left: 8rem;
+    margin-right: -8rem;
+  }
   .experience-sub-title {
     font-size: 2.25rem;
+  }
+  .experience-sub-title1 {
+    font-size: 2.10rem;
   }
   .logo {
     font-size: 2.5rem;
